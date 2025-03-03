@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.4 on win32)" generated="2025-03-02T09:15:00.478672" rpa="false" schemaversion="5">
+<suite id="s1" name="Login" source="C:\Users\hafiz\MyAutomationproject\Mobile Automation\Flight App\MobileAutomationTest10\SB-64-MOBILE\suites\login.robot">
+<test id="s1-t1" name="User Should Be Able To Login with Valid Data" line="26">
+<kw name="Open Flight Application">
+<kw name="Open Application" owner="AppiumLibrary">
+<kw name="Capture Page Screenshot" owner="AppiumLibrary">
+<msg time="2025-03-02T09:15:00.815562" level="FAIL">No application is open</msg>
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<status status="FAIL" start="2025-03-02T09:15:00.814562" elapsed="0.002999">No application is open</status>
+</kw>
+<msg time="2025-03-02T09:15:00.818561" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg time="2025-03-02T09:15:00.818561" level="FAIL">WebDriverException: Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+</msg>
+<arg>remote_url=http://127.0.0.1:4723/</arg>
+<arg>platformName=Android</arg>
+<arg>platformVersion=15.0</arg>
+<arg>deviceName=emulator-5554</arg>
+<arg>appPackage=com.example.myapplication</arg>
+<arg>appActivity=com.example.myapplication.MainActivity</arg>
+<arg>automationName=uiautomator2</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://appium.io/docs/en/2.1/cli/args/
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |
+| strict_ssl          | No     | allows you to send commands to an invalid certificate host like a self-signed one. |</doc>
+<status status="FAIL" start="2025-03-02T09:15:00.712161" elapsed="0.107809">WebDriverException: Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+</status>
+</kw>
+<status status="FAIL" start="2025-03-02T09:15:00.710672" elapsed="0.109298">WebDriverException: Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+</status>
+</kw>
+<kw name="Close Flight Application">
+<status status="NOT RUN" start="2025-03-02T09:15:00.820988" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2025-03-02T09:15:00.710672" elapsed="0.110316">WebDriverException: Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+</status>
+</test>
+<status status="FAIL" start="2025-03-02T09:15:00.480948" elapsed="0.341050"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login" id="s1" pass="0" fail="1" skip="0">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-03-02T09:15:00.818561" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
